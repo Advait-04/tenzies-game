@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Advait-04/tenzies-game/static/css/main.1efcd893.css",
+    "main.js": "/Advait-04/tenzies-game/static/js/main.d06bf0ed.js",
+    "index.html": "/Advait-04/tenzies-game/index.html",
+    "main.1efcd893.css.map": "/Advait-04/tenzies-game/static/css/main.1efcd893.css.map",
+    "main.d06bf0ed.js.map": "/Advait-04/tenzies-game/static/js/main.d06bf0ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1efcd893.css",
+    "static/js/main.d06bf0ed.js"
+  ]
+}
