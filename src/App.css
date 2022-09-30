@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+main {
+    width: 460px;
+    height: 479px;
+    background-color: #0b2434;
+    padding: 0.5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-div {
+    width: 420px;
+    height: 420px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+
+    margin-top: 30px;
+    margin-bottom: 29px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    padding: 0.5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-content {
+    width: 351px;
+    height: 353px;
+
+    margin-top: 34px;
+    margin-bottom: 34px;
+    margin-left: 35px;
+    margin-right: 35px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.title {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+
+    text-align: center;
+
+    color: #2b283a;
 }
 
-.App-link {
-  color: #61dafb;
+.game-desc {
+    width: 233px;
+    height: 48px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #4a4e74;
+
+    margin-top: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dice-box {
+    margin-top: 23px;
+    height: 191px;
+    width: 344px;
+}
+
+.dice-roll {
+    width: 140px;
+    height: 60px;
+
+    margin-top: 26px;
+
+    background: #5035ff;
+    box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+    border-radius: 3.81277px;
+    border: none;
+
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+
+    cursor: pointer;
 }
